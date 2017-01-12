@@ -56,16 +56,6 @@ function calculateSalesTax(companySalesData, salesTaxRates) {
 }
 
 
-// function eachCompSales(companySalesData) {
-//   for ( var i = 0; i < companySalesData.length; i++) {
-//     var thisComp = companySalesData[i];
-//     var branchSalesTotal = addSales(thisComp);
-//     console.log("addSales", addSales(thisComp));
-//   }
-// }
-
-
-
 
 var results = calculateSalesTax(companySalesData, salesTaxRates);
 console.log(results);
